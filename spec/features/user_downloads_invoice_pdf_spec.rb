@@ -1,6 +1,6 @@
 require "rails_helper"
 
-describe "User downalods PDF" do
+describe "User downloads PDF" do
   scenario "for an invoice with normal data" do
     product = create(:product, item_number: 'abc-123')
     invoice = create(:invoice)
